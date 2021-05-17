@@ -126,6 +126,7 @@ nav .fa {
   width: 100%;
   padding: 3rem 0;
   background-color: #0A0B1A;
+  position: relative;
 
   .slider-card {
     display: flex;
@@ -158,6 +159,14 @@ nav .fa {
       font-weight: 600;
     };
   };
+
+  .divider {
+    left: 10.5%;
+    position: absolute;
+    width: 5%;
+    height: 5px;
+    background: #0259EB;
+  }
 }
 
 // CSS for alignment sliding mechanism in the cards

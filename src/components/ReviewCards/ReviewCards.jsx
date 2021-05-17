@@ -13,7 +13,13 @@ const ReviewCards = ({ rev }) => {
         <div className="review-content">
           <div className="review-profile">
             <img src={rev.profilepic} alt="" />
-            <p>{rev.reviewer}</p>
+            <div className="reviewer-location">
+              <p>{rev.reviewer}</p>
+              <p className="location-style">
+                <img src={rev.locationFlag} alt="" />
+                <span>{rev.location}</span>
+              </p>
+            </div>
           </div>
           <div className="review-description">
             <p>{rev.review}</p>

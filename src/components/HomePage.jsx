@@ -54,6 +54,7 @@ const HomePage = () => {
         <h2>Upcoming shows</h2>
         <a href="/" className="viewAll">View all</a>
       </div>
+      <span className="divider" />
       <div className="horizontal_slider">
         <div className="slider_container">
         {musicians.map((mus) => {
@@ -76,6 +77,7 @@ const HomePage = () => {
           <FaArrowRight />
         </a>
       </div>
+      <span className="divider" />
       <div className="horizontal_slider">
         <div className="slider_container">
         {reviews.map((rev) => {

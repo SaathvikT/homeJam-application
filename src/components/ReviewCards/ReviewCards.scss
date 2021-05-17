@@ -31,6 +31,22 @@
 
     .review-profile {
       display: flex;
+
+      p {
+        margin-left: 1rem; 
+      }
+
+      .reviewer-location {
+        img {
+          vertical-align: middle;
+        }
+
+        .location-style {
+          color: #E5C558;
+          font-size: 11px;
+          font-family: Nunito;
+        }
+      }
     };
 
     .review-description {
